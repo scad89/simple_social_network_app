@@ -1,0 +1,21 @@
+sqlparse
+coreapi
+coreschema
+Django
+djangorestframework
+# djangorestframework-simplejwt
+drf-yasg
+gunicorn
+pip-compile-multi
+# pyjwt
+psycopg2
+psycopg2-binary
+python-dateutil
+python-dotenv
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+/text
+/sand
+/my_test
+*.pyc
+social_network/.env
+
