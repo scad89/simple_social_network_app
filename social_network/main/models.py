@@ -11,8 +11,8 @@ class Post(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = 'Пост'
-        verbose_name_plural = 'Посты'
+        verbose_name = 'Post'
+        verbose_name_plural = 'Posts'
 
 
 class LikeDislike(models.Model):
@@ -29,5 +29,5 @@ class LikeDislike(models.Model):
         return f'{self.user}, {self.post}, {self.like}'
 
     class Meta:
-        verbose_name = 'Лайк'
-        verbose_name_plural = 'Лайки'
+        verbose_name = 'Like'
+        verbose_name_plural = 'Likes'
